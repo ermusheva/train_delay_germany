@@ -58,7 +58,8 @@ The project workflow involves cleaning the data with Python, and making a dashbo
 <br><br>
 
 ## Results
-### [🔗 **Dashboard (Tableau Public):**](https://public.tableau.com/app/profile/aleksandra.ermusheva/viz/20251030DeutscheBahnTraindelaysinGermany/Dashboard) 
+### [🔗 **Dashboard (Tableau Public):**](https://public.tableau.com/app/profile/aleksandra.ermusheva/viz/20251030DeutscheBahnTraindelaysinGermany/Dashboard) with clickable cities and stations
+
 
 <p align="center">
   <img src="assets/tableau_train_delay_germany.png" alt="Tableau dashboard" width="80%" align="center"  style="margin-left: 0px;">
