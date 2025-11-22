@@ -1,15 +1,14 @@
 # (Deutsche Bahn) Train delay in Germany (July 2024–June 2025)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Pandas](https://img.shields.io/badge/Pandas-1.3%2B-brightgreen)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?logo=tableau&logoColor=white)
 
 
 ## Project Description
 
 <p align="right">
-  <img src="assets/DB Verspaetung.jfif" alt="Waste Trade" width="350" align="right"  style="margin-left: 0px;">
+  <img src="assets/DB Verspaetung.jfif" alt="Waste Trade" width="150" align="right"  style="margin-left: 0px;">
 </p>
 
 Analyse of 9589K railway trips in Germany (July 2024 to June 2025), including high-speed trains (ICE, IC) and regional trains(RB, RE).
@@ -20,8 +19,7 @@ Data source is Parquet files, loaded with [Deutsche Bahn Data fetch tool](https:
 The project workflow involves cleaning the data with Python, and making a dashboard in Tableau.
 
 <details>
-  <summary>Click to view workflow</summary>
-
+  <summary>Workflow</summary>
 
 ## Workflow
 ### 0. ** Download parquet files **
@@ -40,13 +38,27 @@ The project workflow involves cleaning the data with Python, and making a dashbo
 ### 3. **Visualize Data in Tableau**
 - The cleaned CSV file was imported into Tableau to create the dashboard.
     
+  </details>
+
+<details>
+  <summary>The combined CSV file</summary>
   
+| Station     | Delay in minutes | Time                 | Is canceled | Train type | City    |
+|-------------|------------------|----------------------|-------------|------------|---------|
+| Aachen Hbf  | 0                | 2024-07-01 00:41:00  | False       | RE         | Aachen  |
+| Aachen Hbf  | 3                | 2024-07-01 00:04:00  | False       | RB         | Aachen  |
+| …           | …                | …                    | …           | …          | …       |
+| München Hbf | 1                | 2025-06-30 19:49:00  | False       | RB         | München |
+| Trier Hbf   | 0                | 2025-06-30 23:59:00  | False       | RB         | Trier   |
+
+
 </details>
+
 
 <br><br>
 
 ## Results
-### Tableau dashboard
+### [🔗 **Dashboard (Tableau Public):**](https://public.tableau.com/app/profile/aleksandra.ermusheva/viz/20251030DeutscheBahnTraindelaysinGermany/Dashboard) 
 
 <p align="right">
   <img src="assets/tableau_train_delay_germany.png" alt="Tableau dashboard" width="70%" align="right"  style="margin-left: 0px;">
@@ -57,29 +69,6 @@ The project workflow involves cleaning the data with Python, and making a dashbo
 - Delay times increase over the course of the year with the longest delays in summer months. 
 - High-speed trains experience more delays than regional ones. 
 - The longest average delays are for trains departing from Lüneburg, Hannover, Düsseldorf, Wolfsburg, and Wuppertal. The fewest delays occur on trains departing from Lübeck, Bad Oldesloe, Chemnitz, Frankfurt (Oder), and Potsdam.
-
-<details>
-  <summary>The final CSV file</summary>
-  
-| Station | Delay in minutes | Time | Is canceled | Train type | City |
-| ------- | ---------------- | --------------------- | ------------ | ------- | --------------------- |
-
-| Aachen Hbf | 0 | 2024-07-01 00:41:00 | False | RE | Aachen |
-| Aachen Hbf | 3 | 2024-07-01 00:04:00 | False | RB | Aachen |
-...
-| München Hbf | 1 | 2025-06-30 19:49:00 | False | RB | München |
-| Trier Hbf | 0 | 2025-06-30 23:59:00 | False | RB | Trier |
-
-
-</details>
-
-
-<br><br>
-
-🔗 **Dashboard (Tableau Public):**  
-https://public.tableau.com/app/profile/aleksandra.ermusheva/viz/20251030DeutscheBahnTraindelaysinGermany/Dashboard
-
-
 
 <br><br>
 
