@@ -60,8 +60,8 @@ The project workflow involves cleaning the data with Python, and making a dashbo
 ## Results
 ### [🔗 **Dashboard (Tableau Public):**](https://public.tableau.com/app/profile/aleksandra.ermusheva/viz/20251030DeutscheBahnTraindelaysinGermany/Dashboard) 
 
-<p align="right">
-  <img src="assets/tableau_train_delay_germany.png" alt="Tableau dashboard" width="70%" align="right"  style="margin-left: 0px;">
+<p align="center">
+  <img src="assets/tableau_train_delay_germany.png" alt="Tableau dashboard" width="80%" align="center"  style="margin-left: 0px;">
 </p>
 
 - 20% of trains are delayed by more than 6 minutes.
