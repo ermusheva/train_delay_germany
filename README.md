@@ -22,7 +22,7 @@ The project workflow involves cleaning the data with Python, and making a dashbo
   <summary>Workflow</summary>
 
 ## Workflow
-### 0. ** Download parquet files **
+### 0. **Download parquet files**
 - Cloned repo from [Deutsche Bahn Data fetch tool](https://github.com/piebro/deutsche-bahn-data.git).
 - Loaded and combined parquet files (2024-07 to 2025-06).
 
