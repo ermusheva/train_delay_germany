@@ -1,4 +1,4 @@
-# (Deutsche Bahn) Train delay in Germany (July 2024–June 2025)
+# (Deutsche Bahn) Train delay in Germany
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-1.3%2B-brightgreen)
